@@ -1,4 +1,4 @@
-"resource/ui/hudmatchstatus.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
@@ -268,9 +268,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"max_size"		"20"
-		"6v6_gap"		"2"
-		"12v12_gap"		"2"
+		"max_size"		"35"
+		"6v6_gap"		"1"
+		"12v12_gap"		"1"
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-45"
@@ -292,27 +292,37 @@
 			"color_portrait_bg_blue"			"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"		"HUDRedTeamDark"
 			"color_portrait_bg_blue_dead"		"HUDBlueTeamDark"
-			"color_bar_health_high"				"Overheal"
-			"color_bar_health_med"				"191 183 58 255"
+			"color_bar_health_high"				"Overheal" //overheal
+			"color_bar_health_med"				"190 175 1 255" //191 183 58 255
 			"percentage_health_med"				"0.6"
-			"color_bar_health_low"				"LowHealth"
+			"color_bar_health_low"				"190 54 1 255" //LowHealth
 			"percentage_health_low"				"0.3"
 			"color_portrait_blend_dead_red"		"235 235 235 255"
 			"color_portrait_blend_dead_blue"	"235 235 235 255"
 
-			"playername"
+
+			"PlayerName"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
+				"ControlName"						"CExLabel"
+				"fieldName"							"PlayerName"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"5"
+				"wide"								"f0"
+				"autoResize"						"0"
+				"pinCorner"							"0"
+				"visible"							"1"
+				"textinsetx"						"1"
+				"labelText"							"%playername%"
+				"font"								"DefaultVerySmall"
+				"textAlignment"						"center"
+				"bgcolor_override"					"TransparentBlack"
+				"proportionaltoparent"				"1"
+				"alpha"								"255"
+				
+				"pin_to_sibling" 					"classimagebg"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 			}
 			"classimage"
 			{
@@ -335,7 +345,7 @@
 				"fieldName"		"classimagebg"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"2"
+				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"20"
 				"visible"		"1"
@@ -343,21 +353,22 @@
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
+			
 			"healthbar"
 			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
 				"font"			"Default"
 				"xpos"			"0"
-				"ypos"			"19"
-				"zpos"			"5"
-				"wide"			"f0"
-				"tall"			"2"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"9999" //f0
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"west"
+				"textAlignment"	"left"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"bgcolor_override"		"80 80 80 255"
@@ -369,10 +380,10 @@
 				"fieldName"		"overhealbar"
 				"font"			"Default"
 				"xpos"			"0"
-				"ypos"			"19"
-				"zpos"			"6"
+				"ypos"			"0"
+				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"2"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -381,7 +392,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"bgcolor_override"		"0 0 0 0"
-				"fgcolor_override"		"255 255 255 160"
+				"fgcolor_override"		"255 255 255 160 " // //0 178 190 255
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
