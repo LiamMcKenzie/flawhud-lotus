@@ -292,10 +292,10 @@
 			"color_portrait_bg_blue"			"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"		"TransparentBlack" 
 			"color_portrait_bg_blue_dead"		"TransparentBlack"
-			"color_bar_health_high"				"Overheal" //overheal
-			"color_bar_health_med"				"190 175 1 255" //191 183 58 255
+			"color_bar_health_high"				"100 170 0 255" //overheal
+			"color_bar_health_med"				"170 175 0 255" //191 183 58 255
 			"percentage_health_med"				"0.6"
-			"color_bar_health_low"				"190 54 1 255" //LowHealth
+			"color_bar_health_low"				"170 20 0 255" //LowHealth
 			"percentage_health_low"				"0.3"
 			"color_portrait_blend_dead_red"		"235 235 235 255"
 			"color_portrait_blend_dead_blue"	"235 235 235 255"
