@@ -269,7 +269,7 @@
 		"enabled"		"1"
 
 		"max_size"		"35"
-		"6v6_gap"		"1"
+		"6v6_gap"		"2"
 		"12v12_gap"		"1"
 
 		"team1_grow_dir" 	"west"
@@ -292,7 +292,7 @@
 			"color_portrait_bg_blue"			"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"		"TransparentBlack" 
 			"color_portrait_bg_blue_dead"		"TransparentBlack"
-			"color_bar_health_high"				"100 170 0 255" //overheal
+			"color_bar_health_high"				"20 170 0 255" //overheal
 			"color_bar_health_med"				"170 175 0 255" //191 183 58 255
 			"percentage_health_med"				"0.6"
 			"color_bar_health_low"				"170 20 0 255" //LowHealth
@@ -382,7 +382,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"f0"
+				"wide"			"70" //teamstatus (max_size * 2) //default: f0
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -392,7 +392,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"bgcolor_override"		"0 0 0 0"
-				"fgcolor_override"		"255 255 255 160 " // //0 178 190 255
+				"fgcolor_override"		"170 255 255 200" 
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
