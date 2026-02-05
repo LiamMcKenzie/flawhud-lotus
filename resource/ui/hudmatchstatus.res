@@ -382,7 +382,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"70" //teamstatus (max_size * 2) //default: f0
+				"wide"			"71" //teamstatus (max_size * 2 + 1) //default: f0
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -392,7 +392,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"bgcolor_override"		"0 0 0 0"
-				"fgcolor_override"		"170 255 255 200" 
+				"fgcolor_override"		"Overheal" 
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
