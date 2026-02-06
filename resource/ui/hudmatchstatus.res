@@ -292,10 +292,10 @@
 			"color_portrait_bg_blue"			"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"		"TransparentBlack" 
 			"color_portrait_bg_blue_dead"		"TransparentBlack"
-			"color_bar_health_high"				"20 170 0 255" //overheal
-			"color_bar_health_med"				"170 175 0 255" //191 183 58 255
+			"color_bar_health_high"				"84 191 58 255" //overheal
+			"color_bar_health_med"				"191 183 58 255" //191 183 58 255
 			"percentage_health_med"				"0.6"
-			"color_bar_health_low"				"170 20 0 255" //LowHealth
+			"color_bar_health_low"				"191 58 58 255" //LowHealth
 			"percentage_health_low"				"0.3"
 			"color_portrait_blend_dead_red"		"235 235 235 255"
 			"color_portrait_blend_dead_blue"	"235 235 235 255"
@@ -392,7 +392,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"bgcolor_override"		"0 0 0 0"
-				"fgcolor_override"		"Overheal" 
+				"fgcolor_override"		"255 255 255 160" 
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
