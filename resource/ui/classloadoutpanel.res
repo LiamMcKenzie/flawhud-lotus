@@ -324,7 +324,7 @@
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
+			"xpos"			"9999" //0
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"140"
@@ -345,7 +345,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"PassiveAttribsLabel"
 		"font"				"FontRegular10"
-		"xpos"				"c-55"
+		"xpos"				"9999" //c-55
 		"ypos"				"139"
 		"zpos"				"2"
 		"wide"				"110"
