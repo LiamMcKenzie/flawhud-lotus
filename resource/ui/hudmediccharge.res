@@ -34,8 +34,50 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-
+	
 	"ChargeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"ChargeLabel"
+		"XPos"										"cs-0.5"
+		"YPos"										"c10"
+		"ZPos"										"2"
+		"Wide"										"100"
+		"Tall"										"20"
+		"Tall_Minmode"								"40"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"LabelText"									"#TF_UberchargeMinHUD"
+		"TextAlignment"								"center"
+		"Font"										"FontRegular12"
+		"FGColor"									"TanLight"
+	}
+	
+	"ChargeLabelShadow"
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"ChargeLabelShadow"
+		"XPos"										"-1"
+		"YPos"										"-1"
+		"ZPos"										"1"
+		"Wide"										"100"
+		"Tall"										"20"
+		"Tall_Minmode"								"40"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"LabelText"									"#TF_UberchargeMinHUD"
+		"TextAlignment"								"center"
+		"Font"										"FontRegular12"
+		"FGColor"									"Black"
+		
+		"Pin_To_Sibling"							"ChargeLabel"
+	}
+	
+
+
+	"ChargeLabelBig"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabel"
@@ -60,7 +102,7 @@
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
-	"ChargeLabelShadow"
+	"ChargeLabelBigShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabelShadow"
@@ -142,7 +184,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"		"UberCharge"
+		"fgcolor_override"		"TanLight" //UberCharge
 		"bgcolor_override"		"ProgressBackground"
 		"paintborder"			"0"
 	}
