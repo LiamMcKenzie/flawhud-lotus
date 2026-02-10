@@ -115,7 +115,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"FontRegular12"
+		"font"				"HudFontSmallShadow"
 		"xpos"				"40"
 		"ypos"				"20"
 		"zpos"				"1"
@@ -156,9 +156,11 @@
 		"tall"				"8"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/leaderboard_class_heavy"
+		"image"				"../hud/hud_obj_status_ammo_64" //../hud/leaderboard_class_heavy
 		"scaleImage"			"1"
+		"drawcolor"		"ProgressOffWhite"
 	}
+	
 
 	"KillStreakAnchor"
 	{
