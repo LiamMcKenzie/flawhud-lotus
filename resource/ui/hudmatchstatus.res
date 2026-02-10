@@ -362,7 +362,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"9999" //f0
+				"wide"			"f0" //f0 //9999
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
