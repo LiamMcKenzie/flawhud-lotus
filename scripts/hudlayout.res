@@ -19,8 +19,8 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c150"
-		"ypos"				"c110"
+		"xpos"				"c125" //c150
+		"ypos"				"c80"//"c110"
 		"wide"				"110"
 		"tall"				"43"
 	}
@@ -182,7 +182,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-195"
-		"ypos"					"c44"
+		"ypos"					"c19"
 		"wide"					"100"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -193,13 +193,14 @@
 	"CDamageAccountPanel"
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"10"
+		"ypos"					"-29"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+		"pin_to_sibling" 		"CHealthAccountPanel"
 	}
 
 	"DisguiseStatus"
