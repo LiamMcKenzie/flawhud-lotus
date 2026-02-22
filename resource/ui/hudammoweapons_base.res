@@ -13,9 +13,15 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HudWeaponLowAmmoImage"
-		"xpos"				"9999"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"110"
+		"tall"				"43"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor"	"transparent"//"BGBlack"
+		"PaintBackgroundType"	"2"
 	}
 
 	"AmmoBG"
@@ -29,7 +35,7 @@
 		"tall"				"43"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"BGBlack"
+		"bgcolor"	"transparent"//"BGBlack"
 		"PaintBackgroundType"	"2"
 	}
 
