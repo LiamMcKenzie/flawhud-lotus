@@ -40,7 +40,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"ChargeLabel"
 		"XPos"										"cs-0.5"
-		"YPos"										"c10"
+		"YPos"										"c20"
 		"ZPos"										"2"
 		"Wide"										"100"
 		"Tall"										"20"
@@ -50,7 +50,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_UberchargeMinHUD"
 		"TextAlignment"								"center"
-		"Font"										"FontRegular12"
+		"Font"										"FontBold12"
 		"FGColor"									"TanLight"
 	}
 	
@@ -69,7 +69,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_UberchargeMinHUD"
 		"TextAlignment"								"center"
-		"Font"										"FontRegular12"
+		"Font"										"FontBold12"
 		"FGColor"									"Black"
 		
 		"Pin_To_Sibling"							"ChargeLabel"
@@ -77,53 +77,7 @@
 	
 
 
-	"ChargeLabelBig"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ChargeLabel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"110"
-		"tall"				"43"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_UberchargeMinHUD"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"font"				"FontBold22"
-		"fgcolor"			"TanLight"
-		"pin_to_sibling"	"UberBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
-
-	"ChargeLabelBigShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ChargeLabelShadow"
-		"xpos"				"-2"
-		"ypos"				"-2"
-		"zpos"				"1"
-		"wide"				"110"
-		"tall"				"43"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_UberchargeMinHUD"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"font"				"FontBold22"
-		"fgcolor"			"Black"
-		"pin_to_sibling"	"ChargeLabel"
-	}
+	
 
 	"IndividualChargesLabel"
 	{
@@ -172,11 +126,11 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
-		"xpos"				"c-55"
-		"ypos"				"r98"
+		"xpos"				"c-25"
+		"ypos"				"r210"
 		"zpos"				"1"
-		"wide"				"110"
-		"tall"				"8"
+		"wide"				"0" //50
+		"tall"				"3"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
