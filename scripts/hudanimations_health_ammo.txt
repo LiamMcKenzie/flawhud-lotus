@@ -1,11 +1,11 @@
 event HudHealthBonusBox
 {
-	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"153 204 255 200"		Accel 0.0 0.0 //"Overheal"
 }
 
 event HudHealthDyingBox
 {
-	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.0
+	Animate	HealthBG					BgColor		"215 25 25 200"		Accel 0.0 0.0 //"LowHealth"
 }
 
 event HudHealthStopBox
@@ -17,11 +17,12 @@ event HudHealthStopBox
 
 event HudHealthBonusText
 {
-	Animate	PlayerHealthValue			FgColor		"Overheal"			Accel 0.0 0.0
-	Animate	PlayerHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
+	Animate	HealthBG			FgColor		"Overheal"			Accel 0.0 0.0
+	//Animate	PlayerHealthValue			FgColor		"Overheal"			Accel 0.0 0.0
+	//Animate	PlayerHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
 	
 	Animate	TargetHealthValue			FgColor		"Overheal"			Accel 0.0 0.0
-	Animate	TargetHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
+	//Animate	TargetHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
 	
 	Animate	SpecHealthValue				FgColor		"Overheal"			Accel 0.0 0.0
 	Animate	SpecHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
@@ -29,11 +30,11 @@ event HudHealthBonusText
 
 event HudHealthDyingText
 {
-	Animate	PlayerHealthValue			FgColor		"LowHealth"			Accel 0.0 0.0
+	//Animate	PlayerHealthValue			FgColor		"LowHealth"			Accel 0.0 0.0
 	Animate	PlayerHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
 
 	Animate	TargetHealthValue			FgColor		"LowHealth"			Accel 0.0 0.0
-	Animate	TargetHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
+	//Animate	TargetHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
 
 	Animate	SpecHealthValue				FgColor		"LowHealth"			Accel 0.0 0.0
 	Animate	SpecHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
@@ -55,25 +56,27 @@ event HudHealthStopText
 
 event HudAmmoLowBox
 {
-	Animate	AmmoBG						BgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate	AmmoBG						BgColor		"215 25 25 200" 		Accel 0.0 0.0 //"LowAmmo"			
+	Animate HudWeaponLowAmmoImage       BgColor		"LowAmmo"			Accel 0.0 0.0
 }
 
 event HudAmmoStopBox
 {
 	Animate	AmmoBG						BgColor		"Transparent"		Accel 0.0 0.0
+	Animate HudWeaponLowAmmoImage       BgColor		"Transparent"			Accel 0.0 0.0
 }
 
 //========================================================================================
 
 event HudAmmoLowText
 {
-	Animate	AmmoInClip					FgColor		"LowAmmo"			Accel 0.0 0.0
+	//Animate	AmmoInClip					FgColor		"LowAmmo"			Accel 0.0 0.0
 	Animate	AmmoInClipShadow			FgColor		"LowAmmoShadow"		Accel 0.0 0.0
 	
-	Animate	AmmoInReserve				FgColor		"LowAmmo"			Accel 0.0 0.0
+	//Animate	AmmoInReserve				FgColor		"LowAmmo"			Accel 0.0 0.0
 	Animate	AmmoInReserveShadow			FgColor		"LowAmmoShadow"		Accel 0.0 0.0
 	
-	Animate	AmmoNoClip					FgColor		"LowAmmo"			Accel 0.0 0.0
+	//Animate	AmmoNoClip					FgColor		"LowAmmo"			Accel 0.0 0.0
 	Animate	AmmoNoClipShadow			FgColor		"LowAmmoShadow"		Accel 0.0 0.0
 }
 
