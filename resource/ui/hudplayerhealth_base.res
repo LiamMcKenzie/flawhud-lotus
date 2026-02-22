@@ -5,15 +5,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-250"
-		"ypos"			"c85"
+		"xpos"			"c-275"//"c-250"
+		"ypos"			"c-45"//"c-15"//"c85"
 		"zpos"			"2"
-		"wide"			"150"
-		"tall"			"150"
+		"wide"			"200"//"150"
+		"tall"			"550"
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"			"35"
-		"HealthDeathWarning"		"0.49"
+		"HealthDeathWarning"		"0.49" //.49
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 
@@ -21,12 +21,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"20"
-		"ypos"			"11"
+		"xpos"			"5"
+		"ypos"			"126"
 		"zpos"			"4"
-		"wide"			"70"
-		"tall"			"70"
-		"visible"		"0"		//Change to "1" to enable health cross
+		"wide"			"40"//"40"
+		"tall"			"40"
+		"visible"		"1"		//Change to "1" to enable health cross
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
@@ -35,11 +35,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"	//Change to "18" to enable health cross
-		"ypos"			"9"
+		"xpos"			"3"	//Change to "18" to enable health cross
+		"ypos"			"124"
 		"zpos"			"4"
-		"wide"			"75"
-		"tall"			"75"
+		"wide"			"44"//"44"
+		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -50,14 +50,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthBG"
-		"xpos"			"0"
-		"ypos"			"25"
+		"xpos"			"50"
+		"ypos"			"125"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"43"
 		"visible"		"1"		//Change to "0" to enable health cross
 		"enabled"		"1"
-		"bgcolor_override"		"BGBlack"
+		"bgcolor_override"		"transparent"//"BGBlack"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -65,12 +65,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"	//Change to "23" to enable health cross
-		"ypos"			"12"
+		"xpos"			"50"//"73"	//Change to "23" to enable health cross
+		"ypos"			"111112"//"112"
 		"zpos"			"3"
 		"wide"			"65"
 		"tall"			"65"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
+		"xpos"			"9999"//"76"
 		"ypos"			"55"
 		"zpos"			"6"
 		"wide"			"50"
@@ -138,8 +138,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"30"
-		"ypos"			"0"
+		"xpos"			"22"
+		"ypos"			"100"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
