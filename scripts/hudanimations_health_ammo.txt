@@ -85,7 +85,7 @@ event HudAmmoStopText
 	Animate AmmoInClip					FgColor		"TanLight"			Accel 0.0 0.0
 	Animate AmmoInClipShadow			FgColor		"Black"				Accel 0.0 0.0
 	
-	Animate AmmoInReserve				FgColor		"TanLight"			Accel 0.0 0.0
+	Animate AmmoInReserve				FgColor		"UberCharge"			Accel 0.0 0.0
 	Animate AmmoInReserveShadow			FgColor		"Black"				Accel 0.0 0.0
 	
 	Animate AmmoNoClip					FgColor		"TanLight"			Accel 0.0 0.0
