@@ -47,7 +47,7 @@
 		"fieldName"		"CapNumPlayers"
 		"font"			"HudFontSmallestBold"
 		"xpos"			"14"
-		"ypos"			"5"
+		"ypos"			"3"
 		"zpos"			"4"
 		"wide"			"16"
 		"tall"			"26"
@@ -59,6 +59,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+
 	}
 
 	"OverlayImage"
